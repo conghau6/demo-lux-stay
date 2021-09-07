@@ -38,7 +38,7 @@
             1024:{
                 items:5,
                 nav:false,
-                loop:false
+                loop:true
             }
         }
     });
