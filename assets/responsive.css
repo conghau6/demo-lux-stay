@@ -1,0 +1,140 @@
+/* Mobile: width < 740px */
+@media only screen and (max-width: 46.1875em){
+    .app {
+        margin: 0 20px;
+    }
+
+    .header-day-search,
+    .header-num-search,
+    .header-with-search::after {
+        display: none;
+    }
+
+    .owl-carousel2 .item {
+        height: 277px;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+    .owl-carousel3 .item {
+        height: 180px;
+    }
+
+
+    .row {
+        display: block;
+    }
+
+    .col-2 {
+        width: 100%;
+    }
+
+    .app-code .col-2 {
+        display: block;
+    }
+
+    .col-2.qr-code {
+        display: none;
+    }
+
+    .col-2.phone-icon {
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .end-parag {
+        font-size: 16px;
+        line-height: 24px;
+        padding-bottom: 0px;
+    }
+
+    .app-google-play-icon img,
+    .app-store-icon img{
+    height: 40%;
+    width: 40%;
+    margin-top: 20px;
+    }
+
+    .footer .col-5 {
+        width: 100%;
+    }
+}
+/* PC: width >= 1024px */
+@media only screen and (min-width: 64em) {
+    .row {
+        display: flex;
+        width: 100%;
+    }
+    
+    .col-2 {
+        width: 50%;
+    }
+    
+    .col-5 {
+        width: 20%;
+    }
+
+}
+/* Tablet: width >= 740px and width < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em){
+    .header-day-search,
+    .header-num-search,
+    .header-with-search::after {
+        display: none;
+    }
+
+    .owl-carousel2 .item {
+        height: 227px;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+    .owl-carousel3 .item {
+        height: 270px;
+    }
+
+    .owl-carousel4 .item img{
+        height: 300px;
+    }
+
+    .owl-carousel5 .item {
+       
+    }
+
+    .row {
+        display: block;
+    }
+
+    .col-2 {
+        width: 100%;
+    }
+
+    .app-code .col-2 {
+        display: block;
+    }
+
+    .col-2.qr-code {
+        display: none;
+    }
+
+    .col-2.phone-icon {
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .end-parag {
+        font-size: 16px;
+        line-height: 24px;
+        padding-bottom: 0px;
+    }
+    .app-google-play-icon img,
+    .app-store-icon img{
+    height: 30%;
+    width: 30%;
+    margin-top: 10px;
+    }
+
+    .footer .col-5 {
+        width: 100%;
+    }
+}
