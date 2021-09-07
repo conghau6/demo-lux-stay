@@ -100,9 +100,9 @@
                 nav:false
             },
             1024:{
-                items:4.2,
+                items:4,
                 nav:false,
-                loop:false
+                loop:true
             }
         }
     });
@@ -134,7 +134,7 @@
             1024:{
                 items:3,
                 nav:false,
-                loop:false
+                loop:true
             }
         }
     });
