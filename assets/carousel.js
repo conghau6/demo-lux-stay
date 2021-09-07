@@ -62,7 +62,8 @@
             0:{
                 items:1.2,
                 nav:false,
-                autoplay: false
+                autoplay: false,
+                autoplayHoverPause: false
             },
             739:{
                 items:1.2,
@@ -71,7 +72,8 @@
             1024:{
                 items:3,
                 nav:false,
-                loop:false
+                loop:false,
+                autoplayHoverPause: false
             }
         }
     });
@@ -95,7 +97,8 @@
             0:{
                 items:1.2,
                 nav:false,
-                autoplay: false
+                autoplay: false,
+                autoplayHoverPause: false
             },
             739:{
                 items:1.2,
@@ -104,7 +107,8 @@
             1024:{
                 items:4,
                 nav:false,
-                loop:false
+                loop:false,
+                autoplayHoverPause: false
             }
         }
     });
