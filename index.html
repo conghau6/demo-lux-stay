@@ -34,7 +34,7 @@
 </head>
 <body>
     <div class="app">
-        <nav class="header">
+        <nav class="header" id="header">
             <div class="header-logo">
                 <img src="./assets/img/logo.png" alt="Main lolo">
             </div>
@@ -275,7 +275,7 @@
                        </li>
                    </ul>     
                 </div>
-                <div class="col-5">
+                <div class="col-5 footer-hidden-mobile">
                    <h3>TOP HOMESTAY ĐƯỢC YÊU THÍCH</h3>
                    <ul class="footer-list">
                        <li class="footer-item"><a href="" class="footer-item-link">Homestay Đà Lạt</a></li>
@@ -290,7 +290,7 @@
                        <li class="footer-item"><a href="" class="footer-item-link">Homestay Phan Thiết</a></li>
                    </ul> 
                 </div>
-                <div class="col-5">
+                <div class="col-5 footer-hidden-mobile">
                    <h3>KHÔNG GIAN ƯA THÍCH</h3>
                    <ul class="footer-list">
                        <li class="footer-item"><a href="" class="footer-item-link">Căn hộ dịch vụ</a></li>
@@ -300,7 +300,7 @@
                        <li class="footer-item"><a href="" class="footer-item-link">Travel Guide</a></li>
                    </ul> 
                 </div>
-                <div class="col-5">
+                <div class="col-5 footer-hidden-mobile">
                     <h3>VỀ CHÚNG TÔI</h3>
                     <ul class="footer-list">
                         <li class="footer-item"><a href="" class="footer-item-link">Blog</a></li>
@@ -313,18 +313,39 @@
                         <li class="footer-item"><a href="" class="footer-item-link">Tạp chí du lịch</a></li>
                     </ul> 
                 </div>
-                <div class="col-5">
+                <div class="col-5 footer-hidden-mobile">
                     <h3>TẢI ỨNG DỤNG NGAY</h3>
                     
                 </div>
             </div>
         </footer>
 
+        <div class="about">
+            <div class="certification">
+                <h3>CERTIFICATION</h3>
+                <div class="list-cert">
+                    <a href="" class="bct-img"><img class="" src="./assets/img/bocongthuong.png" alt=""></a>
+                    <a href="" class="dmca-img"><img class="" src="./assets/img/dmca.png" alt=""></a>
+                </div>
+            </div>
+
+            <div class="follow">
+                <h3>FOLLOW US</h3>
+                <a href=""><i class="ti-instagram"></i></a>
+                <a href=""><i class="ti-youtube"></i></a>
+                <a href=""><i class="ti-facebook"></i></a>
+            </div>
+        </div>
+
     </div>
 </body>
-<script>
+<script>;
 
-
+var x = document.getElementById("header").offsetHeight;
+console.log(x)
+if(x!= '80') {
+    alert ('Giao diện trên điện thoại chưa tối ưu, nên còn 1 số lỗi nhé :)');
+}
 
 </script>
 <script src="./assets/carousel.js"></script>

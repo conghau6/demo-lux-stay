@@ -4,6 +4,26 @@
         margin: 0 20px;
     }
 
+    .header {
+        height: 68px;
+        padding-bottom: 0px;
+        z-index: 2;
+        background-color: #fff;
+    }
+
+    .header-logo img {
+        transform: scale(0.8);
+    }
+
+    .header-search-wrap {
+        width: 320px;
+    }
+
+    .header-search-btn {
+        width: 90px;
+        margin-right: 10px;
+    }
+
     .header-day-search,
     .header-num-search,
     .header-with-search::after {
@@ -58,6 +78,10 @@
     .footer .col-5 {
         width: 100%;
     }
+
+    .footer-hidden-mobile {
+        display: none;
+    }
 }
 /* PC: width >= 1024px */
 @media only screen and (min-width: 64em) {
@@ -74,9 +98,30 @@
         width: 20%;
     }
 
+    /* About */
+    .about {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .about img {
+        height: 60px;
+    }
+
+
+    .list-cert > a {
+        display: block;
+        height: 100%;
+        width: 50px;
+    }
+
+    .list-cert a img {
+        width: 10px;
+    }
 }
 /* Tablet: width >= 740px and width < 1024px */
 @media only screen and (min-width: 46.25em) and (max-width: 63.9375em){
+
     .header-day-search,
     .header-num-search,
     .header-with-search::after {
@@ -137,4 +182,5 @@
     .footer .col-5 {
         width: 100%;
     }
+
 }

@@ -28,7 +28,7 @@
         autoplayHoverPause:true,
         responsive:{
             0:{
-                items:2.2,
+                items:2,
                 nav:false
             },
             739:{
@@ -130,7 +130,7 @@
         autoplayHoverPause:true,
         responsive:{
             0:{
-                items:1.2,
+                items:1,
                 nav:false
             },
             739:{

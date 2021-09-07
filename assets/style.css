@@ -449,3 +449,22 @@ svg.introduction-logo.svg-icon.svg-fill {
   padding: 0;
   margin-top: 5px;
 }
+
+/* Copyright */
+
+.about {
+  display: block;
+}
+
+.follow a {
+  text-decoration: none;
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  color: var(--white-color);
+  background-color: var(--black-color);
+  border-radius: 50%;
+}
