@@ -57,11 +57,12 @@
         margin:16,
         autoplay:false,
         autoplayTimeout:3000,
-        autoplayHoverPause:true,
+        autoplayHoverPause:false,
         responsive:{
             0:{
                 items:1.2,
-                nav:false
+                nav:false,
+                autoplay: false
             },
             739:{
                 items:1.2,
@@ -89,11 +90,12 @@
         margin:16,
         autoplay:false,
         autoplayTimeout:3000,
-        autoplayHoverPause:true,
+        autoplayHoverPause:false,
         responsive:{
             0:{
                 items:1.2,
-                nav:false
+                nav:false,
+                autoplay: false
             },
             739:{
                 items:1.2,
@@ -102,7 +104,7 @@
             1024:{
                 items:4,
                 nav:false,
-                loop:true
+                loop:false
             }
         }
     });
@@ -119,7 +121,7 @@
         items:3,
         loop:true,
         margin:16,
-        autoplay:false,
+        autoplay:true,
         autoplayTimeout:3000,
         autoplayHoverPause:true,
         responsive:{
@@ -134,7 +136,7 @@
             1024:{
                 items:3,
                 nav:false,
-                loop:true
+                loop:false
             }
         }
     });
