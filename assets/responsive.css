@@ -12,6 +12,7 @@
     }
 
     .header-logo {
+        width: 54px;
         margin-left: -20px;
     }
 
@@ -20,10 +21,12 @@
     }
 
     .header {
+        
     }
+
     .header-search-wrap {
         position: relative;
-        width: 90vw !important;
+        width: 84vw !important;
     }
 
     .header-with-search {
@@ -31,6 +34,8 @@
     }
 
     .header-search-btn {
+        margin: 0;
+        width: 50px;
         position: absolute;
         z-index: 1;
         right: 5px;
@@ -40,6 +45,8 @@
         color:#ccc;
     }
 
+    .header-curency,
+    .header-menu,
     .header-day-search,
     .header-num-search,
     .header-with-search::after {
