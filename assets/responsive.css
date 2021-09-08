@@ -11,21 +11,27 @@
         background-color: #fff;
     }
 
+    .header-logo {
+        margin-left: -20px;
+    }
+
     .header-logo img {
         transform: scale(0.8);
     }
 
+    .header {
+    }
     .header-search-wrap {
-        width: 290px;
+        width: 82vw;
     }
 
     .header-with-search {
-        width: 190px;
+
     }
 
     .header-search-btn {
         z-index: 1;
-        margin: 0 10px 0 30px;
+        margin: 0 10px 0;
     }
 
     .header-search-btn i {
@@ -127,6 +133,7 @@
     }
 
     .follow {
+        padding-bottom: 30px;
         width: 250px;
     }
 
