@@ -22,16 +22,18 @@
     .header {
     }
     .header-search-wrap {
-        width: 82vw;
+        position: relative;
+        width: 90vw !important;
     }
 
     .header-with-search {
-
+        
     }
 
     .header-search-btn {
+        position: absolute;
         z-index: 1;
-        margin: 0 10px 0;
+        right: 5px;
     }
 
     .header-search-btn i {
